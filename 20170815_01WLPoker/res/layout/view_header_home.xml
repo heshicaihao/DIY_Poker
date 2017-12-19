@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/left_menu_bg"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/in_ads"
+        layout="@layout/view_ads" />
+
+    <ImageView
+        android:id="@+id/promoter_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="9dp"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

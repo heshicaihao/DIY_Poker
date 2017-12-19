@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <com.wlzndjk.poker.widget.ScrollWebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:id="@+id/in_title"
+            layout="@layout/view_title_no_color" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btn_textview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/webview"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="-70dp"
+         />
+
+</RelativeLayout>
